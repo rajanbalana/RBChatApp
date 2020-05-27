@@ -8,6 +8,8 @@ target 'RBChatApp' do
   inhibit_all_warnings!
 
   pod 'Firebase/Database', '~> 6.25.0'
+  pod 'Firebase/Auth', '~> 6.5.3'
+
 
   target 'RBChatAppTests' do
     inherit! :search_paths
