@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0BA9C476CFFCDA3708A6A6D2 /* Pods_RBChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDA1CCC81C01388933D9F65 /* Pods_RBChatApp.framework */; };
 		1E0317F2247E284E00FFCDF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0317F1247E284E00FFCDF6 /* AppDelegate.swift */; };
 		1E0317F4247E284E00FFCDF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0317F3247E284E00FFCDF6 /* SceneDelegate.swift */; };
-		1E0317F6247E284E00FFCDF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0317F5247E284E00FFCDF6 /* ViewController.swift */; };
 		1E0317F9247E284E00FFCDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0317F7247E284E00FFCDF6 /* Main.storyboard */; };
 		1E0317FC247E284E00FFCDF6 /* RBChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E0317FA247E284E00FFCDF6 /* RBChatApp.xcdatamodeld */; };
 		1E0317FE247E285000FFCDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0317FD247E285000FFCDF6 /* Assets.xcassets */; };
 		1E031801247E285000FFCDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0317FF247E285000FFCDF6 /* LaunchScreen.storyboard */; };
 		1E03180C247E285000FFCDF6 /* RBChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E03180B247E285000FFCDF6 /* RBChatAppTests.swift */; };
-		1E031818247E29D000FFCDF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E031817247E29D000FFCDF6 /* GoogleService-Info.plist */; };
+		1E03181D247E2EFB00FFCDF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E03181C247E2EFA00FFCDF6 /* GoogleService-Info.plist */; };
+		1E03181E247E34E800FFCDF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0317F5247E284E00FFCDF6 /* LoginViewController.swift */; };
 		3DB153B68D1754BCE9367BE9 /* Pods_RBChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A580CA6BC8F18C7DA0C3483B /* Pods_RBChatAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		1E0317EE247E284E00FFCDF6 /* RBChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0317F1247E284E00FFCDF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E0317F3247E284E00FFCDF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E0317F5247E284E00FFCDF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E0317F5247E284E00FFCDF6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1E0317F8247E284E00FFCDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E0317FB247E284E00FFCDF6 /* RBChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RBChatApp.xcdatamodel; sourceTree = "<group>"; };
 		1E0317FD247E285000FFCDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		1E031807247E285000FFCDF6 /* RBChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E03180B247E285000FFCDF6 /* RBChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBChatAppTests.swift; sourceTree = "<group>"; };
 		1E03180D247E285000FFCDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E031817247E29D000FFCDF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E03181C247E2EFA00FFCDF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		360281CF5676ECAF5AD16ED9 /* Pods-RBChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBChatAppTests.release.xcconfig"; path = "Target Support Files/Pods-RBChatAppTests/Pods-RBChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		7083B5A938A5619E98E46B3D /* Pods-RBChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBChatApp.debug.xcconfig"; path = "Target Support Files/Pods-RBChatApp/Pods-RBChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		940FE919C429B367A778F3F1 /* Pods-RBChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBChatApp.release.xcconfig"; path = "Target Support Files/Pods-RBChatApp/Pods-RBChatApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +80,6 @@
 				F07259C526688E26D80F4B09 /* Pods-RBChatAppTests.debug.xcconfig */,
 				360281CF5676ECAF5AD16ED9 /* Pods-RBChatAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -110,7 +109,7 @@
 			children = (
 				1E0317F1247E284E00FFCDF6 /* AppDelegate.swift */,
 				1E0317F3247E284E00FFCDF6 /* SceneDelegate.swift */,
-				1E0317F5247E284E00FFCDF6 /* ViewController.swift */,
+				1E0317F5247E284E00FFCDF6 /* LoginViewController.swift */,
 				1E0317F7247E284E00FFCDF6 /* Main.storyboard */,
 				1E0317FD247E285000FFCDF6 /* Assets.xcassets */,
 				1E0317FF247E285000FFCDF6 /* LaunchScreen.storyboard */,
@@ -132,7 +131,7 @@
 		1E031816247E29BA00FFCDF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1E031817247E29D000FFCDF6 /* GoogleService-Info.plist */,
+				1E03181C247E2EFA00FFCDF6 /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -231,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E031801247E285000FFCDF6 /* LaunchScreen.storyboard in Resources */,
-				1E031818247E29D000FFCDF6 /* GoogleService-Info.plist in Resources */,
+				1E03181D247E2EFB00FFCDF6 /* GoogleService-Info.plist in Resources */,
 				1E0317FE247E285000FFCDF6 /* Assets.xcassets in Resources */,
 				1E0317F9247E284E00FFCDF6 /* Main.storyboard in Resources */,
 			);
@@ -315,7 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0317F6247E284E00FFCDF6 /* ViewController.swift in Sources */,
+				1E03181E247E34E800FFCDF6 /* LoginViewController.swift in Sources */,
 				1E0317F2247E284E00FFCDF6 /* AppDelegate.swift in Sources */,
 				1E0317F4247E284E00FFCDF6 /* SceneDelegate.swift in Sources */,
 				1E0317FC247E284E00FFCDF6 /* RBChatApp.xcdatamodeld in Sources */,
