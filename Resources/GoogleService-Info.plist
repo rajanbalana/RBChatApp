@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>56832691537-hvgphfbqjioq2jfq7cij2lpcu5hpcs44.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.56832691537-hvgphfbqjioq2jfq7cij2lpcu5hpcs44</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHfv_SCVKbzJJwj7NT0BbSVDls2P_tzlw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>56832691537</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.unlockproduct.RBChatApp</string>
+	<key>PROJECT_ID</key>
+	<string>chatapp-21cfa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatapp-21cfa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:56832691537:ios:bc34d82067072d06ba9770</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatapp-21cfa.firebaseio.com</string>
+</dict>
+</plist>
